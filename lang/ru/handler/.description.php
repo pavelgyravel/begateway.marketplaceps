@@ -1,0 +1,46 @@
+<?
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS'] = 'Оплата через bePaid marketplace (сервис bePaid)';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_SHOP_ID'] = 'ID магазина';
+$MESS['SALE_HPS_BEGATEWAY_SHOP_ID_DESC'] = '';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_SECRET_KEY'] = 'Секретный ключ магазина';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_SECRET_KEY_DESC'] = '';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PUBLIC_KEY'] = 'Публичный ключ магазина';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PUBLIC_KEY_DESC'] = '';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_SERVICE_CODE'] = 'Код услуги bePaid marketplace';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_SERVICE_CODE_DESC'] = 'Необязательный. Задаётся в том случае, если у вас несколько услуг в bePaid marketplace присвоенных одному магазину';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PAYMENT_DESCRIPTION'] = 'Описание заказа';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PAYMENT_DESCRIPTION_DESC'] = 'Текст может содержать метки: #PAYMENT_ID# - ID оплаты, #ORDER_ID# - ID заказа, #PAYMENT_NUMBER# - номер оплаты, #ORDER_NUMBER# - номер заказа, #USER_EMAIL# - Email покупателя';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PAYMENT_DESCRIPTION_TEMPLATE'] = 'Оплата №#PAYMENT_NUMBER# заказа №#ORDER_NUMBER# для #USER_EMAIL#';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PAYMENT_ACCOUNT'] = 'Идентификатор для оплаты в bePaid marketplace';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PAYMENT_ACCOUNT_DESC'] = 'Текст может содержать метки: #PAYMENT_ID# - ID оплаты, #ORDER_ID# - ID заказа, #PAYMENT_NUMBER# - номер оплаты, #ORDER_NUMBER# - номер заказа, #USER_EMAIL# - Email покупателя';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PAYMENT_ACCOUNT_TEMPLATE'] = '#ORDER_ID#';
+
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PAYMENT_BAPB_ACCOUNT'] = 'Номер счета в белагропром банк';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PAYMENT_BAPB_ACCOUNT_DESC'] = 'Например BY76BAPB30122002880360000000';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PAYMENT_BAPB_NAME'] = 'Название компании в белагропром банк';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PAYMENT_BAPB_NAME_DESC'] = 'Например "Город 312"';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PAYMENT_BAPB_NAME'] = 'Название компании в белагропром банк';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PAYMENT_BAPB_NAME_DESC'] = 'Например "Город 312"';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PAYMENT_BAPB_UNP'] = 'UNP компании в белагропром банк';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_PAYMENT_BAPB_UNP_DESC'] = 'Например 100905064';
+
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_RECEIPT_PAYMENT_DESC'] = 'Текст для чека';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_RECEIPT_PAYMENT_DESC_DESC'] = 'Текст может содержать метки: #PAYMENT_ID# - ID оплаты, #ORDER_ID# - ID заказа, #PAYMENT_NUMBER# - номер оплаты, #ORDER_NUMBER# - номер заказа, #USER_EMAIL# - Email покупателя';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_RECEIPT_PAYMENT_DESC_TEMPLATE'] = 'Спасибо за оплату №#PAYMENT_NUMBER# заказа №#ORDER_NUMBER# для #USER_EMAIL#';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_NOTIFICATION_URL'] = 'URL, на который будут приходить уведомления';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_AUTO_BILL'] = 'Создавать счет автоматически';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_AUTO_BILL_DESC'] = 'После подтверждения заказа счет в bePaid marketplace будет сформирован автоматически и пользователь сможет его оплатить';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_EXPIRY'] = 'Время на оплату счета';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_EXPIRY_DESC'] = 'Введите количество минут, в течение которых пользователь должен оплатить счет';
+$MESS['SALE_HPS_BEGATEWAY_FIRST_NAME'] = 'Имя покупателя';
+$MESS['SALE_HPS_BEGATEWAY_MIDDLE_NAME'] = 'Отчество покупателя';
+$MESS['SALE_HPS_BEGATEWAY_LAST_NAME'] = 'Фамилия покупателя';
+$MESS['SALE_HPS_BEGATEWAY_EMAIL'] = 'E-mail покупателя';
+$MESS['SALE_HPS_BEGATEWAY_ADDRESS'] = 'Адрес покупателя';
+$MESS['SALE_HPS_BEGATEWAY_PHONE'] = 'Телефон покупателя';
+$MESS['SALE_HPS_BEGATEWAY_COUNTRY'] = 'Страна покупателя';
+$MESS['SALE_HPS_BEGATEWAY_CITY'] = 'Город покупателя';
+$MESS['SALE_HPS_BEGATEWAY_ZIP'] = 'Почтовый индекс покупателя';
+$MESS['SALE_HPS_BEGATEWAY_PHONE'] = 'Телефон покупателя';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_IS_TEST'] = 'Тестовый режим';
+$MESS['SALE_HPS_BEGATEWAY_MARKETPLACEPS_CHANGE_STATUS_PAY'] = 'Автоматически оплачивать заказ при получении успешного статуса оплаты';
